@@ -1,0 +1,52 @@
+1
+00:00:01,475 --> 00:00:05,242
+1. openBrowser("")
+
+2
+00:00:05,242 --> 00:00:05,588
+5. maximizeWindow()
+
+3
+00:00:05,588 --> 00:00:07,307
+9. navigateToUrl("https://www.saucedemo.com/v1/index.html")
+
+4
+00:00:07,309 --> 00:00:08,660
+13. setEncryptedText(findTestObject("SauceLabs_Login/Username"), "xDH/NDxr8Nk91RcxWnF9Qg==")
+
+5
+00:00:08,661 --> 00:00:10,167
+17. setEncryptedText(findTestObject("SauceLabs_Login/Password"), "qcu24s4901FyWDTwXGr6XA==")
+
+6
+00:00:10,167 --> 00:00:12,037
+21. takeFullPageScreenshot()
+
+7
+00:00:12,037 --> 00:00:17,488
+25. click(findTestObject("SauceLabs_Login/buttonLogin"))
+
+8
+00:00:17,489 --> 00:00:18,195
+29. verifyElementVisible(findTestObject("SauceLabs_Home/logo_Saucelab"))
+
+9
+00:00:18,205 --> 00:00:18,805
+33. verifyElementVisible(findTestObject("SauceLabs_Home/Icon_TitleProduct"))
+
+10
+00:00:18,805 --> 00:00:19,577
+37. verifyElementVisible(findTestObject("SauceLabs_Home/Icon_TitleProduct"))
+
+11
+00:00:19,577 --> 00:00:20,360
+41. verifyElementVisible(findTestObject("SauceLabs_Home/inventory_container"))
+
+12
+00:00:20,360 --> 00:00:24,097
+45. takeFullPageScreenshot()
+
+13
+00:00:24,097 --> 00:00:26,040
+49. closeBrowser()
+

@@ -1,0 +1,36 @@
+1
+00:00:01,627 --> 00:00:05,932
+1. openBrowser("")
+
+2
+00:00:05,932 --> 00:00:06,239
+5. maximizeWindow()
+
+3
+00:00:06,240 --> 00:00:07,356
+9. navigateToUrl("https://www.saucedemo.com/v1/index.html")
+
+4
+00:00:07,358 --> 00:00:08,726
+13. setEncryptedText(findTestObject("SauceLabs_Login/Password"), "xDH/NDxr8Nk91RcxWnF9Qg==")
+
+5
+00:00:08,727 --> 00:00:10,477
+17. takeFullPageScreenshot()
+
+6
+00:00:10,477 --> 00:00:11,469
+21. click(findTestObject("SauceLabs_Login/buttonLogin"))
+
+7
+00:00:11,470 --> 00:00:12,176
+25. verifyElementText(findTestObject("SauceLabs_Login/Message_ErrorLogin"), "Epic sadface: Username is required")
+
+8
+00:00:12,179 --> 00:00:14,394
+29. takeFullPageScreenshot()
+
+9
+00:00:14,394 --> 00:00:18,605
+33. closeBrowser()
+

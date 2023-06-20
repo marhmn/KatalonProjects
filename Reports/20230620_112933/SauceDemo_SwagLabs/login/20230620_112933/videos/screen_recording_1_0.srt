@@ -1,0 +1,36 @@
+1
+00:00:02,316 --> 00:00:18,358
+1. openBrowser("")
+
+2
+00:00:18,441 --> 00:00:19,304
+5. maximizeWindow()
+
+3
+00:00:19,306 --> 00:00:20,969
+9. navigateToUrl("https://www.saucedemo.com/v1/index.html")
+
+4
+00:00:20,970 --> 00:00:23,130
+13. verifyElementVisible(findTestObject("SauceLabs_Login/loginLogo"))
+
+5
+00:00:23,145 --> 00:00:24,033
+17. verifyElementVisible(findTestObject("SauceLabs_Login/Username"))
+
+6
+00:00:24,033 --> 00:00:24,771
+21. verifyElementVisible(findTestObject("SauceLabs_Login/Password"))
+
+7
+00:00:24,771 --> 00:00:25,621
+25. verifyElementVisible(findTestObject("SauceLabs_Login/buttonLogin"))
+
+8
+00:00:25,621 --> 00:00:27,976
+29. takeFullPageScreenshot()
+
+9
+00:00:27,976 --> 00:00:30,502
+33. closeBrowser()
+

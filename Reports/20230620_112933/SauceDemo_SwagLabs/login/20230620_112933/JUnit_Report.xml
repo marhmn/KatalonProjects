@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="126.737" tests="5" failures="0" errors="0">
+   <testsuite name="login" tests="5" failures="0" errors="0" time="126.737" skipped="0" timestamp="2023-06-20 11:29:44" hostname="71459622 - GTI-02-DPTI-072.bukopin.co.id" id="Test Suites/SauceDemo_SwagLabs/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933"/>
+         <property name="logFiles" value="C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235411908.png, C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235429108.png, C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235439293.png, C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235456765.png, C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235461019.png, C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235464607.png, C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235468465.png, C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235481809.png, C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235485165.png, C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235499051.png, C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235502497.png"/>
+         <property name="hostName" value="71459622 - GTI-02-DPTI-072.bukopin.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.8"/>
+         <property name="sessionId" value="804054e4209d3bdcdda870f3b6d5ebbb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTPS, username=, password=********, proxyServerAddress=10.2.62.222, proxyServerPort=3128, executionList=&quot;localhost, 10.0.0.0/16, 10.2.62.0/24, boc, 10.2.62.*&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceDemo_SwagLabs/Login/1.Login_AccessLoginPage" time="33.215" classname="Test Cases/SauceDemo_SwagLabs/Login/1.Login_AccessLoginPage" status="PASSED">
+         <system-out><![CDATA[2023-06-20 11:29:45 - [TEST_CASE][PASSED] - Test Cases/SauceDemo_SwagLabs/Login/1.Login_AccessLoginPage: Test Cases/SauceDemo_SwagLabs/Login/1.Login_AccessLoginPage
+
+2023-06-20 11:29:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-20 11:29:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-20 11:29:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-20 11:30:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-20 11:30:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-20 11:30:05 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-20 11:30:05 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+2023-06-20 11:30:07 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+2023-06-20 11:30:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("SauceLabs_Login/loginLogo")): Object 'Object Repository/SauceLabs_Login/loginLogo' is visible
+
+2023-06-20 11:30:09 - [MESSAGE][PASSED] - Object 'Object Repository/SauceLabs_Login/loginLogo' is visible
+
+2023-06-20 11:30:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("SauceLabs_Login/Username")): Object 'Object Repository/SauceLabs_Login/Username' is visible
+
+2023-06-20 11:30:10 - [MESSAGE][PASSED] - Object 'Object Repository/SauceLabs_Login/Username' is visible
+
+2023-06-20 11:30:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("SauceLabs_Login/Password")): Object 'Object Repository/SauceLabs_Login/Password' is visible
+
+2023-06-20 11:30:10 - [MESSAGE][PASSED] - Object 'Object Repository/SauceLabs_Login/Password' is visible
+
+2023-06-20 11:30:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("SauceLabs_Login/buttonLogin")): Object 'Object Repository/SauceLabs_Login/buttonLogin' is visible
+
+2023-06-20 11:30:11 - [MESSAGE][PASSED] - Object 'Object Repository/SauceLabs_Login/buttonLogin' is visible
+
+2023-06-20 11:30:11 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-06-20 11:30:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-20 11:30:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235411908.png]]
+
+2023-06-20 11:30:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-20 11:30:16 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-20 11:30:18 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/SauceDemo_SwagLabs/Login/1.Login_AccessLoginPage' .
+
+2023-06-20 11:30:18 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/SauceDemo_SwagLabs/Login/1.Login_AccessLoginPage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo_SwagLabs/Login/2.Login_Success" time="28.183" classname="Test Cases/SauceDemo_SwagLabs/Login/2.Login_Success" status="PASSED">
+         <system-out><![CDATA[2023-06-20 11:30:18 - [TEST_CASE][PASSED] - Test Cases/SauceDemo_SwagLabs/Login/2.Login_Success: Test Cases/SauceDemo_SwagLabs/Login/2.Login_Success
+
+2023-06-20 11:30:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-20 11:30:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-20 11:30:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-20 11:30:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-20 11:30:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-20 11:30:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-20 11:30:24 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+2023-06-20 11:30:26 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+2023-06-20 11:30:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SauceLabs_Login/Username"), "xDH/NDxr8Nk91RcxWnF9Qg=="): Text ****** has been set on object 'Object Repository/SauceLabs_Login/Username'
+
+2023-06-20 11:30:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceLabs_Login/Username'
+
+2023-06-20 11:30:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SauceLabs_Login/Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SauceLabs_Login/Password'
+
+2023-06-20 11:30:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceLabs_Login/Password'
+
+2023-06-20 11:30:29 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-06-20 11:30:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-20 11:30:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235429108.png]]
+
+2023-06-20 11:30:30 - [TEST_STEP][PASSED] - click(findTestObject("SauceLabs_Login/buttonLogin")): Object: 'Object Repository/SauceLabs_Login/buttonLogin' is clicked on
+
+2023-06-20 11:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLabs_Login/buttonLogin' is clicked on
+
+2023-06-20 11:30:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("SauceLabs_Home/logo_Saucelab")): Object 'Object Repository/SauceLabs_Home/logo_Saucelab' is visible
+
+2023-06-20 11:30:37 - [MESSAGE][PASSED] - Object 'Object Repository/SauceLabs_Home/logo_Saucelab' is visible
+
+2023-06-20 11:30:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("SauceLabs_Home/Icon_TitleProduct")): Object 'Object Repository/SauceLabs_Home/Icon_TitleProduct' is visible
+
+2023-06-20 11:30:37 - [MESSAGE][PASSED] - Object 'Object Repository/SauceLabs_Home/Icon_TitleProduct' is visible
+
+2023-06-20 11:30:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("SauceLabs_Home/Icon_TitleProduct")): Object 'Object Repository/SauceLabs_Home/Icon_TitleProduct' is visible
+
+2023-06-20 11:30:38 - [MESSAGE][PASSED] - Object 'Object Repository/SauceLabs_Home/Icon_TitleProduct' is visible
+
+2023-06-20 11:30:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("SauceLabs_Home/inventory_container")): Object 'Object Repository/SauceLabs_Home/inventory_container' is visible
+
+2023-06-20 11:30:39 - [MESSAGE][PASSED] - Object 'Object Repository/SauceLabs_Home/inventory_container' is visible
+
+2023-06-20 11:30:39 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-06-20 11:30:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-20 11:30:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235439293.png]]
+
+2023-06-20 11:30:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-20 11:30:44 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-20 11:30:47 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/SauceDemo_SwagLabs/Login/2.Login_Success' .
+
+2023-06-20 11:30:47 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/SauceDemo_SwagLabs/Login/2.Login_Success' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo_SwagLabs/Login/3.Login_UserPassNotMatch" time="27.31" classname="Test Cases/SauceDemo_SwagLabs/Login/3.Login_UserPassNotMatch" status="PASSED">
+         <system-out><![CDATA[2023-06-20 11:30:47 - [TEST_CASE][PASSED] - Test Cases/SauceDemo_SwagLabs/Login/3.Login_UserPassNotMatch: Test Cases/SauceDemo_SwagLabs/Login/3.Login_UserPassNotMatch
+
+2023-06-20 11:30:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-20 11:30:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-20 11:30:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-20 11:30:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-20 11:30:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-20 11:30:53 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-20 11:30:53 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+2023-06-20 11:30:54 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+2023-06-20 11:30:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SauceLabs_Login/Username"), "xDH/NDxr8Nk91RcxWnF9Qg=="): Text ****** has been set on object 'Object Repository/SauceLabs_Login/Username'
+
+2023-06-20 11:30:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceLabs_Login/Username'
+
+2023-06-20 11:30:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SauceLabs_Login/Password"), "RyzK/uu8Q1+7/zuOsKmZ+g=="): Text ****** has been set on object 'Object Repository/SauceLabs_Login/Password'
+
+2023-06-20 11:30:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceLabs_Login/Password'
+
+2023-06-20 11:30:56 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-06-20 11:30:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-20 11:30:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235456765.png]]
+
+2023-06-20 11:30:58 - [TEST_STEP][PASSED] - click(findTestObject("SauceLabs_Login/buttonLogin")): Object: 'Object Repository/SauceLabs_Login/buttonLogin' is clicked on
+
+2023-06-20 11:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLabs_Login/buttonLogin' is clicked on
+
+2023-06-20 11:30:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("SauceLabs_Login/Message_ErrorLogin")): Object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' is visible
+
+2023-06-20 11:31:00 - [MESSAGE][PASSED] - Object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' is visible
+
+2023-06-20 11:31:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SauceLabs_Login/Message_ErrorLogin"), "Epic sadface: Username and password do not match any user in this service"): Actual text and expected text of test object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' are matched.
+
+2023-06-20 11:31:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' are matched.
+
+2023-06-20 11:31:01 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-06-20 11:31:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-20 11:31:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235461019.png]]
+
+2023-06-20 11:31:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SauceLabs_Login/Username"), "xDH/NDxr8NmrYWQzOXNldQ=="): Text ****** has been set on object 'Object Repository/SauceLabs_Login/Username'
+
+2023-06-20 11:31:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceLabs_Login/Username'
+
+2023-06-20 11:31:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SauceLabs_Login/Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SauceLabs_Login/Password'
+
+2023-06-20 11:31:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceLabs_Login/Password'
+
+2023-06-20 11:31:04 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-06-20 11:31:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-20 11:31:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235464607.png]]
+
+2023-06-20 11:31:06 - [TEST_STEP][PASSED] - click(findTestObject("SauceLabs_Login/buttonLogin")): Object: 'Object Repository/SauceLabs_Login/buttonLogin' is clicked on
+
+2023-06-20 11:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLabs_Login/buttonLogin' is clicked on
+
+2023-06-20 11:31:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("SauceLabs_Login/Message_ErrorLogin")): Object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' is visible
+
+2023-06-20 11:31:07 - [MESSAGE][PASSED] - Object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' is visible
+
+2023-06-20 11:31:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SauceLabs_Login/Message_ErrorLogin"), "Epic sadface: Username and password do not match any user in this service"): Actual text and expected text of test object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' are matched.
+
+2023-06-20 11:31:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' are matched.
+
+2023-06-20 11:31:08 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-06-20 11:31:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-20 11:31:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235468465.png]]
+
+2023-06-20 11:31:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-20 11:31:12 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-20 11:31:14 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/SauceDemo_SwagLabs/Login/3.Login_UserPassNotMatch' .
+
+2023-06-20 11:31:14 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/SauceDemo_SwagLabs/Login/3.Login_UserPassNotMatch' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo_SwagLabs/Login/4.Login_PasswordEmpty" time="15.825" classname="Test Cases/SauceDemo_SwagLabs/Login/4.Login_PasswordEmpty" status="PASSED">
+         <system-out><![CDATA[2023-06-20 11:31:14 - [TEST_CASE][PASSED] - Test Cases/SauceDemo_SwagLabs/Login/4.Login_PasswordEmpty: Test Cases/SauceDemo_SwagLabs/Login/4.Login_PasswordEmpty
+
+2023-06-20 11:31:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-20 11:31:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-20 11:31:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-20 11:31:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-20 11:31:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-20 11:31:19 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-20 11:31:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+2023-06-20 11:31:20 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+2023-06-20 11:31:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SauceLabs_Login/Username"), "xDH/NDxr8Nk91RcxWnF9Qg=="): Text ****** has been set on object 'Object Repository/SauceLabs_Login/Username'
+
+2023-06-20 11:31:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceLabs_Login/Username'
+
+2023-06-20 11:31:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-06-20 11:31:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-20 11:31:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235481809.png]]
+
+2023-06-20 11:31:23 - [TEST_STEP][PASSED] - click(findTestObject("SauceLabs_Login/buttonLogin")): Object: 'Object Repository/SauceLabs_Login/buttonLogin' is clicked on
+
+2023-06-20 11:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLabs_Login/buttonLogin' is clicked on
+
+2023-06-20 11:31:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SauceLabs_Login/Message_ErrorLogin"), "Epic sadface: Password is required"): Actual text and expected text of test object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' are matched.
+
+2023-06-20 11:31:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' are matched.
+
+2023-06-20 11:31:25 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-06-20 11:31:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-20 11:31:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235485165.png]]
+
+2023-06-20 11:31:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-20 11:31:28 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-20 11:31:30 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/SauceDemo_SwagLabs/Login/4.Login_PasswordEmpty' .
+
+2023-06-20 11:31:30 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/SauceDemo_SwagLabs/Login/4.Login_PasswordEmpty' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo_SwagLabs/Login/5.Login_UsernameEmpty" time="20.822" classname="Test Cases/SauceDemo_SwagLabs/Login/5.Login_UsernameEmpty" status="PASSED">
+         <system-out><![CDATA[2023-06-20 11:31:30 - [TEST_CASE][PASSED] - Test Cases/SauceDemo_SwagLabs/Login/5.Login_UsernameEmpty: Test Cases/SauceDemo_SwagLabs/Login/5.Login_UsernameEmpty
+
+2023-06-20 11:31:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-20 11:31:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-20 11:31:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-20 11:31:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-20 11:31:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-20 11:31:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-20 11:31:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+2023-06-20 11:31:37 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+2023-06-20 11:31:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SauceLabs_Login/Password"), "xDH/NDxr8Nk91RcxWnF9Qg=="): Text ****** has been set on object 'Object Repository/SauceLabs_Login/Password'
+
+2023-06-20 11:31:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceLabs_Login/Password'
+
+2023-06-20 11:31:39 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-06-20 11:31:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-20 11:31:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235499051.png]]
+
+2023-06-20 11:31:40 - [TEST_STEP][PASSED] - click(findTestObject("SauceLabs_Login/buttonLogin")): Object: 'Object Repository/SauceLabs_Login/buttonLogin' is clicked on
+
+2023-06-20 11:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLabs_Login/buttonLogin' is clicked on
+
+2023-06-20 11:31:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SauceLabs_Login/Message_ErrorLogin"), "Epic sadface: Username is required"): Actual text and expected text of test object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' are matched.
+
+2023-06-20 11:31:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SauceLabs_Login/Message_ErrorLogin' are matched.
+
+2023-06-20 11:31:42 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-06-20 11:31:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-20 11:31:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\71459622\\git\\KatalonProjects\\Reports\\20230620_112933\\SauceDemo_SwagLabs\\login\\20230620_112933\\1687235502497.png]]
+
+2023-06-20 11:31:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-20 11:31:48 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-20 11:31:51 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/SauceDemo_SwagLabs/Login/5.Login_UsernameEmpty' .
+
+2023-06-20 11:31:51 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/SauceDemo_SwagLabs/Login/5.Login_UsernameEmpty' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-20 11:29:44 - [TEST_SUITE][PASSED] - login: Test Cases/SauceDemo_SwagLabs/Login/5.Login_UsernameEmpty]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

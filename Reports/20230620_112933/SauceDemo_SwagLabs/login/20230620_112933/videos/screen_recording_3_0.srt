@@ -1,0 +1,72 @@
+1
+00:00:01,669 --> 00:00:05,712
+1. openBrowser("")
+
+2
+00:00:05,712 --> 00:00:06,114
+5. maximizeWindow()
+
+3
+00:00:06,116 --> 00:00:07,358
+9. navigateToUrl("https://www.saucedemo.com/v1/index.html")
+
+4
+00:00:07,359 --> 00:00:08,718
+13. setEncryptedText(findTestObject("SauceLabs_Login/Username"), "xDH/NDxr8Nk91RcxWnF9Qg==")
+
+5
+00:00:08,720 --> 00:00:09,641
+17. setEncryptedText(findTestObject("SauceLabs_Login/Password"), "RyzK/uu8Q1+7/zuOsKmZ+g==")
+
+6
+00:00:09,644 --> 00:00:11,481
+21. takeFullPageScreenshot()
+
+7
+00:00:11,481 --> 00:00:12,473
+25. click(findTestObject("SauceLabs_Login/buttonLogin"))
+
+8
+00:00:12,473 --> 00:00:13,179
+29. verifyElementVisible(findTestObject("SauceLabs_Login/Message_ErrorLogin"))
+
+9
+00:00:13,179 --> 00:00:13,896
+33. verifyElementText(findTestObject("SauceLabs_Login/Message_ErrorLogin"), "Epic sadface: Username and password do not match any user in this service")
+
+10
+00:00:13,896 --> 00:00:15,538
+37. takeFullPageScreenshot()
+
+11
+00:00:15,554 --> 00:00:16,552
+41. setEncryptedText(findTestObject("SauceLabs_Login/Username"), "xDH/NDxr8NmrYWQzOXNldQ==")
+
+12
+00:00:16,553 --> 00:00:17,485
+45. setEncryptedText(findTestObject("SauceLabs_Login/Password"), "qcu24s4901FyWDTwXGr6XA==")
+
+13
+00:00:17,486 --> 00:00:19,205
+49. takeFullPageScreenshot()
+
+14
+00:00:19,236 --> 00:00:20,027
+53. click(findTestObject("SauceLabs_Login/buttonLogin"))
+
+15
+00:00:20,044 --> 00:00:20,727
+57. verifyElementVisible(findTestObject("SauceLabs_Login/Message_ErrorLogin"))
+
+16
+00:00:20,727 --> 00:00:21,358
+61. verifyElementText(findTestObject("SauceLabs_Login/Message_ErrorLogin"), "Epic sadface: Username and password do not match any user in this service")
+
+17
+00:00:21,358 --> 00:00:23,095
+65. takeFullPageScreenshot()
+
+18
+00:00:23,095 --> 00:00:25,143
+69. closeBrowser()
+

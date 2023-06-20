@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/SauceDemo_SwagLabs/Login/1.Login_AccessLoginPage","testCaseId":"Test Cases/SauceDemo_SwagLabs/Login/1.Login_AccessLoginPage","iterationVariableName":""}
+{"testCaseName":"Test Cases/SauceDemo_SwagLabs/Login/2.Login_Success","testCaseId":"Test Cases/SauceDemo_SwagLabs/Login/2.Login_Success","iterationVariableName":""}
+{"testCaseName":"Test Cases/SauceDemo_SwagLabs/Login/3.Login_UserPassNotMatch","testCaseId":"Test Cases/SauceDemo_SwagLabs/Login/3.Login_UserPassNotMatch","iterationVariableName":""}
+{"testCaseName":"Test Cases/SauceDemo_SwagLabs/Login/4.Login_PasswordEmpty","testCaseId":"Test Cases/SauceDemo_SwagLabs/Login/4.Login_PasswordEmpty","iterationVariableName":""}
+{"testCaseName":"Test Cases/SauceDemo_SwagLabs/Login/5.Login_UsernameEmpty","testCaseId":"Test Cases/SauceDemo_SwagLabs/Login/5.Login_UsernameEmpty","iterationVariableName":""}

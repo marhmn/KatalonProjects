@@ -1,0 +1,75 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,Chrome 114.0.0.0,,,2023-06-20 11:29:44,2023-06-20 11:31:51,2m - 6.737s,PASSED
+,,,,,,,
+Test Cases/SauceDemo_SwagLabs/Login/1.Login_AccessLoginPage,Chrome 114.0.0.0,,,2023-06-20 11:29:45,2023-06-20 11:30:18,33.215s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-20 11:29:48,2023-06-20 11:30:04,16.120s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-20 11:30:04,2023-06-20 11:30:05,0.861s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Chrome 114.0.0.0,,,2023-06-20 11:30:05,2023-06-20 11:30:07,1.664s,PASSED
+"verifyElementVisible(findTestObject(""SauceLabs_Login/loginLogo""))",Chrome 114.0.0.0,,,2023-06-20 11:30:07,2023-06-20 11:30:09,2.173s,PASSED
+"verifyElementVisible(findTestObject(""SauceLabs_Login/Username""))",Chrome 114.0.0.0,,,2023-06-20 11:30:09,2023-06-20 11:30:10,0.887s,PASSED
+"verifyElementVisible(findTestObject(""SauceLabs_Login/Password""))",Chrome 114.0.0.0,,,2023-06-20 11:30:10,2023-06-20 11:30:10,0.738s,PASSED
+"verifyElementVisible(findTestObject(""SauceLabs_Login/buttonLogin""))",Chrome 114.0.0.0,,,2023-06-20 11:30:10,2023-06-20 11:30:11,0.850s,PASSED
+takeFullPageScreenshot(),Chrome 114.0.0.0,,,2023-06-20 11:30:11,2023-06-20 11:30:14,2.355s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-20 11:30:14,2023-06-20 11:30:16,2.526s,PASSED
+Video,Chrome 114.0.0.0,,,2023-06-20 11:30:18,2023-06-20 11:30:18,0.000s,PASSED
+,,,,,,,
+Test Cases/SauceDemo_SwagLabs/Login/2.Login_Success,Chrome 114.0.0.0,,,2023-06-20 11:30:18,2023-06-20 11:30:47,28.183s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-20 11:30:20,2023-06-20 11:30:24,3.767s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-20 11:30:24,2023-06-20 11:30:24,0.346s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Chrome 114.0.0.0,,,2023-06-20 11:30:24,2023-06-20 11:30:26,1.723s,PASSED
+"setEncryptedText(findTestObject(""SauceLabs_Login/Username""), ""xDH/NDxr8Nk91RcxWnF9Qg=="")",Chrome 114.0.0.0,,,2023-06-20 11:30:26,2023-06-20 11:30:27,1.350s,PASSED
+"setEncryptedText(findTestObject(""SauceLabs_Login/Password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 114.0.0.0,,,2023-06-20 11:30:27,2023-06-20 11:30:29,1.504s,PASSED
+takeFullPageScreenshot(),Chrome 114.0.0.0,,,2023-06-20 11:30:29,2023-06-20 11:30:30,1.870s,PASSED
+"click(findTestObject(""SauceLabs_Login/buttonLogin""))",Chrome 114.0.0.0,,,2023-06-20 11:30:30,2023-06-20 11:30:36,5.453s,PASSED
+"verifyElementVisible(findTestObject(""SauceLabs_Home/logo_Saucelab""))",Chrome 114.0.0.0,,,2023-06-20 11:30:36,2023-06-20 11:30:37,0.713s,PASSED
+"verifyElementVisible(findTestObject(""SauceLabs_Home/Icon_TitleProduct""))",Chrome 114.0.0.0,,,2023-06-20 11:30:37,2023-06-20 11:30:37,0.600s,PASSED
+"verifyElementVisible(findTestObject(""SauceLabs_Home/Icon_TitleProduct""))",Chrome 114.0.0.0,,,2023-06-20 11:30:37,2023-06-20 11:30:38,0.765s,PASSED
+"verifyElementVisible(findTestObject(""SauceLabs_Home/inventory_container""))",Chrome 114.0.0.0,,,2023-06-20 11:30:38,2023-06-20 11:30:39,0.783s,PASSED
+takeFullPageScreenshot(),Chrome 114.0.0.0,,,2023-06-20 11:30:39,2023-06-20 11:30:43,3.737s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-20 11:30:43,2023-06-20 11:30:44,1.943s,PASSED
+Video,Chrome 114.0.0.0,,,2023-06-20 11:30:47,2023-06-20 11:30:47,0.000s,PASSED
+,,,,,,,
+Test Cases/SauceDemo_SwagLabs/Login/3.Login_UserPassNotMatch,Chrome 114.0.0.0,,,2023-06-20 11:30:47,2023-06-20 11:31:14,27.310s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-20 11:30:48,2023-06-20 11:30:52,4.058s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-20 11:30:52,2023-06-20 11:30:53,0.389s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Chrome 114.0.0.0,,,2023-06-20 11:30:53,2023-06-20 11:30:54,1.242s,PASSED
+"setEncryptedText(findTestObject(""SauceLabs_Login/Username""), ""xDH/NDxr8Nk91RcxWnF9Qg=="")",Chrome 114.0.0.0,,,2023-06-20 11:30:54,2023-06-20 11:30:55,1.360s,PASSED
+"setEncryptedText(findTestObject(""SauceLabs_Login/Password""), ""RyzK/uu8Q1+7/zuOsKmZ+g=="")",Chrome 114.0.0.0,,,2023-06-20 11:30:55,2023-06-20 11:30:56,0.925s,PASSED
+takeFullPageScreenshot(),Chrome 114.0.0.0,,,2023-06-20 11:30:56,2023-06-20 11:30:58,1.836s,PASSED
+"click(findTestObject(""SauceLabs_Login/buttonLogin""))",Chrome 114.0.0.0,,,2023-06-20 11:30:58,2023-06-20 11:30:59,0.977s,PASSED
+"verifyElementVisible(findTestObject(""SauceLabs_Login/Message_ErrorLogin""))",Chrome 114.0.0.0,,,2023-06-20 11:30:59,2023-06-20 11:31:00,0.706s,PASSED
+"verifyElementText(findTestObject(""SauceLabs_Login/Message_ErrorLogin""), ""Epic sadface: Username and password do not match any user in this service"")",Chrome 114.0.0.0,,,2023-06-20 11:31:00,2023-06-20 11:31:01,0.717s,PASSED
+takeFullPageScreenshot(),Chrome 114.0.0.0,,,2023-06-20 11:31:01,2023-06-20 11:31:02,1.658s,PASSED
+"setEncryptedText(findTestObject(""SauceLabs_Login/Username""), ""xDH/NDxr8NmrYWQzOXNldQ=="")",Chrome 114.0.0.0,,,2023-06-20 11:31:02,2023-06-20 11:31:03,0.999s,PASSED
+"setEncryptedText(findTestObject(""SauceLabs_Login/Password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 114.0.0.0,,,2023-06-20 11:31:03,2023-06-20 11:31:04,0.933s,PASSED
+takeFullPageScreenshot(),Chrome 114.0.0.0,,,2023-06-20 11:31:04,2023-06-20 11:31:06,1.748s,PASSED
+"click(findTestObject(""SauceLabs_Login/buttonLogin""))",Chrome 114.0.0.0,,,2023-06-20 11:31:06,2023-06-20 11:31:07,0.808s,PASSED
+"verifyElementVisible(findTestObject(""SauceLabs_Login/Message_ErrorLogin""))",Chrome 114.0.0.0,,,2023-06-20 11:31:07,2023-06-20 11:31:07,0.682s,PASSED
+"verifyElementText(findTestObject(""SauceLabs_Login/Message_ErrorLogin""), ""Epic sadface: Username and password do not match any user in this service"")",Chrome 114.0.0.0,,,2023-06-20 11:31:07,2023-06-20 11:31:08,0.631s,PASSED
+takeFullPageScreenshot(),Chrome 114.0.0.0,,,2023-06-20 11:31:08,2023-06-20 11:31:10,1.737s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-20 11:31:10,2023-06-20 11:31:12,2.048s,PASSED
+Video,Chrome 114.0.0.0,,,2023-06-20 11:31:14,2023-06-20 11:31:14,0.000s,PASSED
+,,,,,,,
+Test Cases/SauceDemo_SwagLabs/Login/4.Login_PasswordEmpty,Chrome 114.0.0.0,,,2023-06-20 11:31:14,2023-06-20 11:31:30,15.825s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-20 11:31:15,2023-06-20 11:31:19,3.285s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-20 11:31:19,2023-06-20 11:31:19,0.285s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Chrome 114.0.0.0,,,2023-06-20 11:31:19,2023-06-20 11:31:20,1.171s,PASSED
+"setEncryptedText(findTestObject(""SauceLabs_Login/Username""), ""xDH/NDxr8Nk91RcxWnF9Qg=="")",Chrome 114.0.0.0,,,2023-06-20 11:31:20,2023-06-20 11:31:21,1.223s,PASSED
+takeFullPageScreenshot(),Chrome 114.0.0.0,,,2023-06-20 11:31:21,2023-06-20 11:31:23,1.832s,PASSED
+"click(findTestObject(""SauceLabs_Login/buttonLogin""))",Chrome 114.0.0.0,,,2023-06-20 11:31:23,2023-06-20 11:31:24,0.860s,PASSED
+"verifyElementText(findTestObject(""SauceLabs_Login/Message_ErrorLogin""), ""Epic sadface: Password is required"")",Chrome 114.0.0.0,,,2023-06-20 11:31:24,2023-06-20 11:31:25,0.653s,PASSED
+takeFullPageScreenshot(),Chrome 114.0.0.0,,,2023-06-20 11:31:25,2023-06-20 11:31:26,1.543s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-20 11:31:26,2023-06-20 11:31:28,1.402s,PASSED
+Video,Chrome 114.0.0.0,,,2023-06-20 11:31:30,2023-06-20 11:31:30,0.000s,PASSED
+,,,,,,,
+Test Cases/SauceDemo_SwagLabs/Login/5.Login_UsernameEmpty,Chrome 114.0.0.0,,,2023-06-20 11:31:30,2023-06-20 11:31:51,20.822s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-20 11:31:31,2023-06-20 11:31:36,4.301s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-20 11:31:36,2023-06-20 11:31:36,0.309s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Chrome 114.0.0.0,,,2023-06-20 11:31:36,2023-06-20 11:31:37,1.117s,PASSED
+"setEncryptedText(findTestObject(""SauceLabs_Login/Password""), ""xDH/NDxr8Nk91RcxWnF9Qg=="")",Chrome 114.0.0.0,,,2023-06-20 11:31:37,2023-06-20 11:31:39,1.369s,PASSED
+takeFullPageScreenshot(),Chrome 114.0.0.0,,,2023-06-20 11:31:39,2023-06-20 11:31:40,1.749s,PASSED
+"click(findTestObject(""SauceLabs_Login/buttonLogin""))",Chrome 114.0.0.0,,,2023-06-20 11:31:40,2023-06-20 11:31:41,0.993s,PASSED
+"verifyElementText(findTestObject(""SauceLabs_Login/Message_ErrorLogin""), ""Epic sadface: Username is required"")",Chrome 114.0.0.0,,,2023-06-20 11:31:41,2023-06-20 11:31:42,0.709s,PASSED
+takeFullPageScreenshot(),Chrome 114.0.0.0,,,2023-06-20 11:31:42,2023-06-20 11:31:44,2.214s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-20 11:31:44,2023-06-20 11:31:48,4.211s,PASSED
+Video,Chrome 114.0.0.0,,,2023-06-20 11:31:51,2023-06-20 11:31:51,0.002s,PASSED
