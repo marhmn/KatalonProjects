@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3.Login_UserPassNotMatch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8255b40-7172-43fa-839b-4fe3eaa55ded</testCaseGuid>
+</TestCaseEntity>
