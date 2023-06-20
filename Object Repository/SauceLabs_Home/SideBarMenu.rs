@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>title_Product</name>
+   <name>SideBarMenu</name>
    <tag></tag>
-   <elementGuidId>939af0b7-0fbb-4767-8f22-9796054a2a96</elementGuidId>
+   <elementGuidId>ef357be0-05d7-4746-ac4b-5628a1b68444</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[2]/div[2]/div/div[1]/div[3]/div</value>
+         <value>/html/body/div/div[1]/div/div[2]/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,14 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>505ac328-e3f4-4a84-bfc5-815259ca6d2e</webElementGuid>
+      <webElementGuid>18ebae9d-8a1e-4aec-a0e4-baa8538dafbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1687233380753</value>
-      <webElementGuid>8f9114b2-22d2-4c2d-a1be-7164953dc5c6</webElementGuid>
+      <value>xpath1687244610707</value>
+      <webElementGuid>d0f55351-6b39-4602-a7d9-853db190d986</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>title_Product</name>
+   <name>InventorySideBarLink</name>
    <tag></tag>
-   <elementGuidId>939af0b7-0fbb-4767-8f22-9796054a2a96</elementGuidId>
+   <elementGuidId>101f4741-3f2f-43dc-8263-9a8ab4fc2a57</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[2]/div[2]/div/div[1]/div[3]/div</value>
+         <value>//*[@id=&quot;inventory_sidebar_link&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,14 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>505ac328-e3f4-4a84-bfc5-815259ca6d2e</webElementGuid>
+      <webElementGuid>d192bb2d-4216-4264-aa77-1ec64bd66af9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1687233380753</value>
-      <webElementGuid>8f9114b2-22d2-4c2d-a1be-7164953dc5c6</webElementGuid>
+      <value>xpath1687244473645</value>
+      <webElementGuid>08e98945-8143-42bd-aeba-404e71487633</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

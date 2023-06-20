@@ -3,7 +3,7 @@
    <description></description>
    <name>logo_Saucelab</name>
    <tag></tag>
-   <elementGuidId>08182f80-c9e1-4ed3-860b-0444fd84a5cf</elementGuidId>
+   <elementGuidId>abd3a554-6530-4c2d-834a-52439986bc6a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

@@ -3,7 +3,7 @@
    <description></description>
    <name>Icon_TitleProduct</name>
    <tag></tag>
-   <elementGuidId>372c0a88-9f3d-4e5d-944e-ecd6b9b799e9</elementGuidId>
+   <elementGuidId>6a12cca3-19bb-44d4-b1fd-4a89777e85a5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

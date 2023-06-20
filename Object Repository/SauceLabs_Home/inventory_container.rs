@@ -3,7 +3,7 @@
    <description></description>
    <name>inventory_container</name>
    <tag></tag>
-   <elementGuidId>b78b07cc-7297-4ba2-b4d7-c8b508adf5d2</elementGuidId>
+   <elementGuidId>681e40e5-8bb9-4d2c-83f7-65dcbe6e1b2e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

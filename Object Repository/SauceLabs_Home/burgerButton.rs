@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>title_Product</name>
+   <name>burgerButton</name>
    <tag></tag>
-   <elementGuidId>939af0b7-0fbb-4767-8f22-9796054a2a96</elementGuidId>
+   <elementGuidId>3cd3cdc2-3305-448b-8c71-fd4b8d6edbfc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[2]/div[2]/div/div[1]/div[3]/div</value>
+         <value>/html/body/div/div[1]/div/div[3]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,14 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>505ac328-e3f4-4a84-bfc5-815259ca6d2e</webElementGuid>
+      <webElementGuid>7ab62eef-ba90-4fc4-bcdf-72b635db9ff7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1687233380753</value>
-      <webElementGuid>8f9114b2-22d2-4c2d-a1be-7164953dc5c6</webElementGuid>
+      <value>xpath1687244381993</value>
+      <webElementGuid>a96943c2-2f70-45bd-8cdc-ef262bf1bbc9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

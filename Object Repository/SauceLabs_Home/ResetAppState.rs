@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>title_Product</name>
+   <name>ResetAppState</name>
    <tag></tag>
-   <elementGuidId>939af0b7-0fbb-4767-8f22-9796054a2a96</elementGuidId>
+   <elementGuidId>94d91611-fc2c-4d83-bc5c-52c9c9bbf7c0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[2]/div[2]/div/div[1]/div[3]/div</value>
+         <value>//*[@id=&quot;reset_sidebar_link&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,14 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>505ac328-e3f4-4a84-bfc5-815259ca6d2e</webElementGuid>
+      <webElementGuid>bb301ad5-1854-4605-a526-2f9351c5e6bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1687233380753</value>
-      <webElementGuid>8f9114b2-22d2-4c2d-a1be-7164953dc5c6</webElementGuid>
+      <value>xpath1687244583927</value>
+      <webElementGuid>42cac6eb-4559-4371-8fee-b19209c190c8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

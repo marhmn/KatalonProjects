@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>title_Product</name>
+   <name>button_Sort</name>
    <tag></tag>
-   <elementGuidId>939af0b7-0fbb-4767-8f22-9796054a2a96</elementGuidId>
+   <elementGuidId>75e5113e-79ed-4798-88bc-0730feb25795</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[2]/div[2]/div/div[1]/div[3]/div</value>
+         <value>/html/body/div/div[2]/div[2]/div/div[1]/div[3]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,14 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>505ac328-e3f4-4a84-bfc5-815259ca6d2e</webElementGuid>
+      <webElementGuid>e974cf92-951a-42a0-9b44-be361dbd8a10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1687233380753</value>
-      <webElementGuid>8f9114b2-22d2-4c2d-a1be-7164953dc5c6</webElementGuid>
+      <value>xpath1687244771606</value>
+      <webElementGuid>8517e26f-7434-4a5c-acf0-ad85b5cf9823</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

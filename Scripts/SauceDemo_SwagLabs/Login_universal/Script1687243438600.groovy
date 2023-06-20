@@ -35,15 +35,3 @@ AmbilURL = WebUI.getUrl()
 
 WebUI.verifyMatch(AmbilURL, 'https://www.saucedemo.com/v1/inventory.html', false)
 
-WebUI.verifyElementVisible(findTestObject('SauceLabs_Home/title_Product'))
-
-WebUI.verifyElementVisible(findTestObject('SauceLabs_Home/Icon_TitleProduct'))
-
-WebUI.verifyElementVisible(findTestObject('SauceLabs_Home/logo_Saucelab'))
-
-WebUI.verifyElementVisible(findTestObject('SauceLabs_Home/inventory_container'))
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.closeBrowser()
-
